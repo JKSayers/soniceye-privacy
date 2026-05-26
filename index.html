@@ -6,20 +6,19 @@
   <title>Sonic Eye Industries</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 
-main {
-  flex: 1; /* takes up remaining space, footer stays at bottom */
-}
-
-    
-    .container {
-      max-width: 640px;
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
+
+    .container {
+      flex: 1;
+      max-width: 640px;
+      padding: 2rem;
+    }
+
     .eyebrow {
       font-size: 11px;
       font-weight: 500;
@@ -28,6 +27,7 @@ main {
       text-transform: uppercase;
       margin-bottom: 1rem;
     }
+
     h1 {
       font-size: 36px;
       font-weight: 500;
@@ -35,6 +35,7 @@ main {
       color: #f0f4ff;
       margin-bottom: 1.5rem;
     }
+
     .divider {
       width: 40px;
       height: 2px;
@@ -42,11 +43,20 @@ main {
       margin-bottom: 1.5rem;
       opacity: 0.6;
     }
+
     p {
       font-size: 17px;
       line-height: 1.8;
       color: #8899bb;
       max-width: 560px;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      opacity: 0.6;
+      padding: 2rem 1rem;
     }
   </style>
 </head>
@@ -56,27 +66,19 @@ main {
     <h1>Independent media and tech.<br>No corporate sponsors, no problem.</h1>
     <div class="divider"></div>
     <p>Sonic Eye Industries builds lightweight tools for streaming, listening, and distributed audio systems. Our focus is on facilitating community through music and journalism by providing no-frills technological solutions.</p>
-     <div class="divider"></div>
+    <div class="divider"></div>
     <p>
-      Current project: <strong>XCSB Player</strong> — a streaming client for Cleveland's own, <br> tried and true independent alternative media radio: XCSB
+      Current project: <strong>XCSB Player</strong> — a streaming client for Cleveland's own,<br>
+      tried and true independent alternative media radio: XCSB
     </p>
-
     <p class="tag">
       Contact: <a href="mailto:sonicEye@soniceyeindustries.com">sonicEye@soniceyeindustries.com</a>
     </p>
-    <br>
   </div>
-</body>
-<br>
-  <footer style="
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-  opacity: 0.6;
-  padding: 2rem 1rem;
-  margin-top: auto;
-">
-  <p>© 2026 Sonic Eye Industries LLC. All rights reserved.</p>
-</footer>
 
+  <footer>
+    <p>© 2026 Sonic Eye Industries LLC. All rights reserved.</p>
+  </footer>
+</body>
 </html>
+
