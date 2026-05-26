@@ -1,88 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sonic Eye Industries</title>
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      margin: 0;
-      padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: #0b0b0f;
-      color: #f2f2f2;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #0a1628;
+      color: #f0f4ff;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      text-align: center;
+      padding: 2rem;
     }
-
     .container {
-      max-width: 700px;
-      padding: 40px;
+      max-width: 640px;
     }
-
+    .eyebrow {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      color: #4a5a7a;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
     h1 {
-      font-size: 40px;
-      margin-bottom: 12px;
-      letter-spacing: 1px;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 1.3;
+      color: #f0f4ff;
+      margin-bottom: 1.5rem;
     }
-
+    .divider {
+      width: 40px;
+      height: 2px;
+      background: #00d4f5;
+      margin-bottom: 1.5rem;
+      opacity: 0.6;
+    }
     p {
-      font-size: 16px;
-      line-height: 1.6;
-      opacity: 0.8;
-    }
-
-    .tag {
-      margin-top: 20px;
-      font-size: 14px;
-      opacity: 0.5;
-    }
-
-    a {
-      color: #9ad1ff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
+      font-size: 17px;
+      line-height: 1.8;
+      color: #8899bb;
+      max-width: 560px;
     }
   </style>
 </head>
-
 <body>
   <div class="container">
-    <h1>Sonic Eye Industries 2026</h1>
-      <div class="subtitle">
-
-      
-      Independent media and tech. No corporate sponsors, no problem. 
-  
-      </div>
-
-    
-        
-
-      <div class="description">
-
-        Sonic Eye Industries builds lightweight tools for streaming, listening, and distributed audio systems.
-
-        Our focus is on facilitating community through music and journalism by providing no frills technological solutions. 
-
-      </div>
-
-    <p>
-      Current project: <strong>XCSB Player</strong> — a streaming client for Cleveland's own, <br> tried and true independent alternative media radio: XCSB
-    </p>
-
-    <p class="tag">
-      Contact: <a href="mailto:sonicEye@soniceyeindustries.com">sonicEye@soniceyeindustries.com</a>
-    </p>
+    <p class="eyebrow">Sonic Eye Industries — 2026</p>
+    <h1>Independent media and tech.<br>No corporate sponsors, no problem.</h1>
+    <div class="divider"></div>
+    <p>Sonic Eye Industries builds lightweight tools for streaming, listening, and distributed audio systems. Our focus is on facilitating community through music and journalism by providing no-frills technological solutions.</p>
   </div>
 </body>
-  <footer style="position: absolute; bottom: 20px; width: 100%; text-align: center; font-size: 12px; opacity: 0.6;">
-  <p>© 2026 Sonic Eye Industries LLC. All rights reserved.</p>
-</footer>
 </html>
